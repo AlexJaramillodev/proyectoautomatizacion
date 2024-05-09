@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+   padding: 0;
+    
+}
+body{
+    box-sizing: border-box;
+}
+.acercade{
+    color: white;
+    text-transform: none;
+    text-decoration: underline;
+}
+
+.img-logo{
+    width:120px;
+    height: auto;
+}
+.contenedor-imagen{
+    overflow: hidden;
+}
+.img-inicio{
+    width: 100%;    
+    height: calc(100vh - 70px);
+    filter: brightness(0.3);
+}
+
+.nav-color{
+    background-color: #0033A0;
+}
+.seccion-img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+.titulos-banner{
+    width: 100%;
+    margin-top: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.titulos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.botones{
+    font-size: 17px;
+}
+.boton-salud{
+    background-color: white;   
+    border-radius: 50px;
+    padding: 7px 15px;
+    border: 0;font-weight: bold;
+    margin-right: 110px;
+}
+.boton-movilidad{
+    background-color: #0033A0;   
+    border-radius: 50px;
+    padding: 7px 15px;
+    border: 0;font-weight: bold;
+    margin-left: 30px;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.enlace-salud{
+    color: #0033A0;
+}
+.enlace-movilidad{
+    color: white;
+ }
+
+.enlace-salud:hover{
+border-bottom: 2px solid #0033A0;
+   scale: 110%;
+}
+.enlace-movilidad:hover{
+    border-bottom: 2px solid white;
+   scale: 110%;
+
+}
+
+.elemento-hover{
+    filter: brightness(0.7); 
+    scale: 110%;   
+}
+
+h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+h2{
+    font-weight: bold;
+}
+h3{
+    font-size: 25px;
+    text-align: center;
+}
+
+.texto-acercade{
+    height: 300px;
+    width: 100%;
+    color: #0033A0;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-acercade{
+    font-size: 40px;
+}
+.parrafo-acercade{
+    font-size: 25px;
+}
+.descripcion{
+
+    width:90%;
+    height: auto;    
+   padding: 50px 20px;
+    color: #0033A0;
+}
+span{
+    font-weight: bold;
+}
